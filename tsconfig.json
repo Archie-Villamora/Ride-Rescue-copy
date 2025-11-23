@@ -6,7 +6,11 @@
     "moduleSuffixes": [
       ".native",
       ""
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
   "include": [
     "**/*.ts",
